@@ -1,0 +1,15 @@
+2022/10/16 23:58:07 [emerg] 10144#15988: bind() to 0.0.0.0:80 failed (10013: Intento de acceso a un socket no permitido por sus permisos de acceso)
+2022/10/16 23:58:26 [emerg] 14656#14400: bind() to 0.0.0.0:80 failed (10013: Intento de acceso a un socket no permitido por sus permisos de acceso)
+2022/10/16 23:58:57 [emerg] 17532#15724: bind() to 0.0.0.0:80 failed (10013: Intento de acceso a un socket no permitido por sus permisos de acceso)
+2022/10/17 00:00:08 [notice] 480#15988: signal process started
+2022/10/17 00:00:08 [error] 480#15988: CreateFile() "C:\Users\pablo\Downloads\nginx-1.23.1\nginx-1.23.1/logs/nginx.pid" failed (2: El sistema no puede encontrar el archivo especificado)
+2022/10/17 00:00:28 [emerg] 10952#15148: bind() to 0.0.0.0:80 failed (10013: Intento de acceso a un socket no permitido por sus permisos de acceso)
+2022/10/17 19:35:37 [emerg] 14308#17084: bind() to 0.0.0.0:80 failed (10013: Intento de acceso a un socket no permitido por sus permisos de acceso)
+2022/10/17 19:48:23 [error] 16080#18680: *1 CreateFile() "C:\Users\pablo\Downloads\nginx-1.23.1\nginx-1.23.1/html/favicon.ico" failed (2: El sistema no puede encontrar el archivo especificado), client: 127.0.0.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost:8087", referrer: "http://localhost:8087/"
+2022/10/17 19:58:38 [notice] 15512#7672: signal process started
+2022/10/17 19:59:33 [notice] 8988#2696: signal process started
+2022/10/17 20:01:39 [notice] 12828#11024: signal process started
+2022/10/17 20:01:53 [notice] 7324#7772: signal process started
+2022/10/17 20:02:54 [notice] 10516#1460: signal process started
+2022/10/17 20:39:56 [error] 4180#8348: *4 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: nginx_node, request: "GET /datos/ HTTP/1.1", upstream: "http://127.0.0.1:8081/datos/", host: "localhost:8087"
+2022/10/17 20:39:58 [error] 4180#8348: *4 connect() failed (10061: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión) while connecting to upstream, client: 127.0.0.1, server: nginx_node, request: "GET /datos/ HTTP/1.1", upstream: "http://127.0.0.1:8082/datos/", host: "localhost:8087"
